@@ -4,19 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NATALIA VAHL</title>
-  
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-  
+  <link rel="stylesheet" href="style.css">
+
   <!-- Boxicons CDN -->
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-  
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- NAVBAR -->
+  <!-- 🔝 NAVBAR -->
   <header>
     <nav>
       <h1 class="logo">Vestidos Únicos</h1>
@@ -48,19 +43,19 @@
           <p>Modalidades:</p>
           <ul>
             <li>En un pago: 13% de descuento con transferencia bancaria o efectivo.</li>
-            <li>En un pago o en cuotas con tarjeta de crédito: 14% de recargo + interés de cada tarjeta.</li>
+            <li>En un pago o en cuotas con tarjeta de crédito: 14% de recargo + el interés de cada tarjeta.</li>
             <li>En cuotas sin tarjeta de crédito: 10% de descuento sin interés.</li>
-            <li>En 5 cuotas: entrega inicial del 30% y 4 cuotas iguales con actualización de mano de obra 6 meses antes del evento.</li>
+            <li>En 5 cuotas: entrega inicial del 30% y 4 cuotas iguales y consecutivas con actualización de mano de obra 6 meses antes del evento.</li>
           </ul>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- SECCIÓN INICIO CON VIDEO -->
+  <!-- 🏠 SECCIÓN INICIO CON VIDEO -->
   <section id="inicio" class="inicio">
     <video autoplay muted loop class="video-fondo">
-      <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+      <source src="./IMG/WhatsApp Video 2025-10-19 at 22.05.18.mp4" type="video/mp4">
       Tu navegador no soporta video en HTML5.
     </video>
     <div class="overlay">
@@ -71,50 +66,68 @@
     </div>
   </section>
 
-  <!-- 15 AÑOS -->
+  <!-- 💃 SECCIÓN 15 AÑOS -->
   <section id="quince" class="seccion">
     <h2>Vestidos de 15 Años</h2>
     <div class="carousel">
-      <button class="flecha izquierda" onclick="moverCarrusel('quince', -1)"><i class='bx bx-chevron-left'></i></button>
+      <button class="flecha izquierda" onclick="moverCarrusel('quince', -1)">
+        <i class='bx bx-chevron-left'></i>
+      </button>
       <div class="contenedor-imagenes" id="carrusel-quince">
-        <img src="https://i.postimg.cc/xyz/vestido15-1.jpg" alt="Vestido 15 1">
-        <img src="https://i.postimg.cc/xyz/vestido15-2.jpg" alt="Vestido 15 2">
-        <img src="https://i.postimg.cc/xyz/vestido15-3.jpg" alt="Vestido 15 3">
+        <img src="./IMG/Vestido quince1.jpeg" alt="Vestido 15 1">
+        <img src="./IMG/WhatsApp Image 2025-10-19 at 21.42.20.jpeg" alt="Vestido 15 2">
+        <img src="./IMG/WhatsApp Image 2025-10-19 at 21.42.21.jpeg" alt="Vestido 15 3">
+        <img src="./IMG/WhatsApp Image 2025-10-19 at 21.44.44 (1).jpeg" alt="Vestido 15 4">
+        <img src="./IMG/WhatsApp Image 2025-10-19 at 21.44.36.jpeg" alt="Vestido 15 5">
       </div>
-      <button class="flecha derecha" onclick="moverCarrusel('quince', 1)"><i class='bx bx-chevron-right'></i></button>
+      <button class="flecha derecha" onclick="moverCarrusel('quince', 1)">
+        <i class='bx bx-chevron-right'></i>
+      </button>
     </div>
   </section>
 
-  <!-- NOVIAS -->
+  <!-- 👰 SECCIÓN NOVIAS -->
   <section id="novias" class="seccion">
     <h2>Vestidos de Novia</h2>
     <div class="carousel">
-      <button class="flecha izquierda" onclick="moverCarrusel('novias', -1)"><i class='bx bx-chevron-left'></i></button>
+      <button class="flecha izquierda" onclick="moverCarrusel('novias', -1)">
+        <i class='bx bx-chevron-left'></i>
+      </button>
       <div class="contenedor-imagenes" id="carrusel-novias">
-        <img src="https://i.postimg.cc/xyz/novia1.jpg" alt="Vestido novia 1">
-        <img src="https://i.postimg.cc/xyz/novia2.jpg" alt="Vestido novia 2">
-        <img src="https://i.postimg.cc/xyz/novia3.jpg" alt="Vestido novia 3">
+        <img src="img/novia1.jpg" alt="Vestido novia 1">
+        <img src="img/novia2.jpg" alt="Vestido novia 2">
+        <img src="img/novia3.jpg" alt="Vestido novia 3">
+        <img src="img/novia4.jpg" alt="Vestido novia 4">
+        <img src="img/novia5.jpg" alt="Vestido novia 5">
       </div>
-      <button class="flecha derecha" onclick="moverCarrusel('novias', 1)"><i class='bx bx-chevron-right'></i></button>
+      <button class="flecha derecha" onclick="moverCarrusel('novias', 1)">
+        <i class='bx bx-chevron-right'></i>
+      </button>
     </div>
   </section>
 
-  <!-- ACCESORIOS -->
+  <!-- 💍 SECCIÓN ACCESORIOS -->
   <section id="accesorios" class="seccion">
     <h2>Accesorios</h2>
     <div class="carousel">
-      <button class="flecha izquierda" onclick="moverCarrusel('accesorios', -1)"><i class='bx bx-chevron-left'></i></button>
+      <button class="flecha izquierda" onclick="moverCarrusel('accesorios', -1)">
+        <i class='bx bx-chevron-left'></i>
+      </button>
       <div class="contenedor-imagenes" id="carrusel-accesorios">
-        <img src="https://i.postimg.cc/xyz/accesorio1.jpg" alt="Accesorio 1">
-        <img src="https://i.postimg.cc/xyz/accesorio2.jpg" alt="Accesorio 2">
-        <img src="https://i.postimg.cc/xyz/accesorio3.jpg" alt="Accesorio 3">
+        <img src="img/accesorio1.jpg" alt="Accesorio 1">
+        <img src="img/accesorio2.jpg" alt="Accesorio 2">
+        <img src="img/accesorio3.jpg" alt="Accesorio 3">
       </div>
-      <button class="flecha derecha" onclick="moverCarrusel('accesorios', 1)"><i class='bx bx-chevron-right'></i></button>
+      <button class="flecha derecha" onclick="moverCarrusel('accesorios', 1)">
+        <i class='bx bx-chevron-right'></i>
+      </button>
     </div>
   </section>
 
-  <!-- BOTÓN ARRIBA -->
-  <a href="#inicio" class="btn-arriba"><i class='bx bx-up-arrow-alt'></i></a>
+  <!-- ⬆️ BOTÓN VOLVER ARRIBA -->
+  <a href="#inicio" class="btn-arriba">
+    <i class='bx bx-up-arrow-alt'></i>
+  </a>
 
   <script>
     function toggleMenu() {
@@ -122,14 +135,22 @@
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     }
 
-    const posiciones = { quince:0, novias:0, accesorios:0 };
-    function moverCarrusel(seccion, direccion){
+    const posiciones = {
+      quince: 0,
+      novias: 0,
+      accesorios: 0
+    };
+
+    function moverCarrusel(seccion, direccion) {
       const carrusel = document.getElementById(`carrusel-${seccion}`);
-      const total = carrusel.children.length;
+      const totalImagenes = carrusel.children.length;
+
       posiciones[seccion] += direccion;
-      if(posiciones[seccion]<0) posiciones[seccion]=total-1;
-      if(posiciones[seccion]>=total) posiciones[seccion]=0;
-      carrusel.style.transform = `translateX(${-posiciones[seccion]*100}%)`;
+      if (posiciones[seccion] < 0) posiciones[seccion] = totalImagenes - 1;
+      if (posiciones[seccion] >= totalImagenes) posiciones[seccion] = 0;
+
+      const offset = -posiciones[seccion] * 100;
+      carrusel.style.transform = `translateX(${offset}%)`;
     }
   </script>
 
